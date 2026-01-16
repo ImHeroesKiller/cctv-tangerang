@@ -1,0 +1,7 @@
+{
+  "name": "Tangerang Live CCTV Dashboard",
+  "description": "A high-performance real-time traffic monitoring dashboard for Tangerang Metropolitan area featuring live CCTV feeds and AI-powered traffic insights.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
