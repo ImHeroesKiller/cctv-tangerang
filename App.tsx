@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo } from 'react';
-import Header from './components/Header';
-import CCTVCard from './components/CCTVCard';
-import SmartTrafficAssistant from './components/SmartTrafficAssistant';
-import { CCTV_DATA } from './constants';
-import { Region, CCTVStream } from './types';
+import Header from './components/Header.tsx';
+import CCTVCard from './components/CCTVCard.tsx';
+import SmartTrafficAssistant from './components/SmartTrafficAssistant.tsx';
+import { CCTV_DATA } from './constants.tsx';
+import { Region, CCTVStream } from './types.ts';
 
 const App: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');

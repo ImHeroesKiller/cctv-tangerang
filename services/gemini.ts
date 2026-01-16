@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { TrafficInsight } from "../types";
+import { TrafficInsight } from "../types.ts";
 
 export const fetchTrafficInsights = async (query: string): Promise<TrafficInsight> => {
   // Cek apakah API_KEY tersedia untuk mencegah crash di lingkungan statis murni

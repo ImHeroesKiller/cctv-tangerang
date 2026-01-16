@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { fetchTrafficInsights } from '../services/gemini';
-import { TrafficInsight, Region } from '../types';
+import { fetchTrafficInsights } from '../services/gemini.ts';
+import { TrafficInsight, Region } from '../types.ts';
 
 interface Props {
   selectedRegion: Region;
